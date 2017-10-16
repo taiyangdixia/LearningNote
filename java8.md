@@ -10,7 +10,7 @@
 
         Arrays.asList("a", "b", "c").forEach( (String e) -> System.out.println( e ) );
 
-2. 函数式接口 **待进一步学习**
+2. 函数式接口
 
     `jdk8` 中所有类库中的已有接口都添加了`@FunctionalInterface` 注解。
 
@@ -31,6 +31,8 @@
         }
 
 
-`functionalInterface` 注解只是帮助进行编译级错误检查，如果写的接口不符合函数式接口定义规范，编译器就会报错。
+&nbsp;    `functionalInterface` 注解只是帮助进行编译级错误检查，如果写的接口不符合函数式接口定义规范，编译器就会报错。
 
-`jdk1.8`中新增加了函数接口，`java.util.function`中包含很多类，用来支持`java`的函数式编程，该包中的函数式接口链接 [`java.util.funcition`]:http://docs.oracle.com/javase/8/docs/api/java/util/function/package-frame.html “`java.util.function Interfaces`”
+&nbsp;    `jdk1.8`中新增加了函数接口，`java.util.function`中包含很多类，用来支持`java`的函数式编程，该包中的函数式接口链接 [`java.util.funcition`]:http://docs.oracle.com/javase/8/docs/api/java/util/function/package-frame.html “`java.util.function Interfaces`”
+
+### 二. 接口的默认方法
